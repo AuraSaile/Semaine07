@@ -267,3 +267,47 @@ footer a {
     font-size: 50px;
     
 }
+
+/* Modale */
+
+p.zoom {
+    width: 800px;
+    height: 600px;
+
+    cursor: grab;
+
+    background-color: white;
+
+    padding: 30px;
+    border-radius: 10px;
+}
+
+div.modale {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 2;
+
+    background-color: rgba(00, 00, 00, 0.8);
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modale.visible{
+    display:flex;
+}
+
+.modale p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font: bold 5rem "Roboto", sans-serif;
+}
