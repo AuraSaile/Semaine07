@@ -1,0 +1,160 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+/*////////////////////////////////////////////////////////////////
+BASE
+////////////////////////////////////////////////////////////////*/
+
+.wrapper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+body {
+    font-family: "Merriweather", serif;
+
+    background-color: #e6edf1;
+    color: black;
+}
+
+/*////////////////////////////////////////////////////////////////
+ITEM
+////////////////////////////////////////////////////////////////*/
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+/*////////////////////////////////////////////////////////////////
+DONNÉES PRINCIPALES 
+////////////////////////////////////////////////////////////////*/
+
+/* Header */
+
+header {
+    background-color: #379ae3;
+
+    position: sticky;
+    top: 0;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    font: bold 1.8rem "Roboto", sans-serif;
+}
+
+header p {
+   font: bold 2.4rem "Merriweather", serif;; 
+}
+
+header .bouton {
+    font: bold 1.8rem "Roboto", sans-serif;
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+    padding: 10px 30px;
+
+    background-color: white;
+}
+
+header .bouton:hover{
+    color: black;
+}
+
+/* Banniere */
+
+.banniere {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+
+    
+
+    
+}
+
+.banniere .wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    height: 637px;
+}
+
+.texte {
+    text-align: center;
+
+    width: 550px;
+    height: 437px;
+
+    border: 1px hidden black;
+    border-radius: 20px;
+
+    background-color: rgba(00, 00, 00, .7);
+}
+.texte h1 {
+    color: #e67522;
+
+    font: bold 6.4rem "Merriweather", serif;
+}
+
+.texte p {
+    color: white;
+
+    font: bold 2rem "Roboto", sans-serif;
+
+    padding-bottom: 50px;
+}
+
+.texte a {
+    color: white;
+    background-color: #e67522;
+
+    font: bold 1.8rem "Roboto", sans-serif;
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    padding: 7px 40px;
+
+}
+
+/* Section Article */
+
+.partie1 {
+    text-align: center;
+}
+
+.partie1 h2 {
+    font: bold 6.4rem "Merriweather", serif;
+}
+
+.partie1 p {
+    font: 400 1.8rem "Roboto", sans-serif;
+}
